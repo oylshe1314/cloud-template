@@ -1,0 +1,15 @@
+rootProject.name = 'op'
+
+//API
+include ':api-utils'
+include ':api-common'
+include ':api-entity'
+include ':api-redis'
+include ':api-user'
+
+//SERVER
+include ':server-config'
+include 'server-admin'
+include ':server-eureka'
+include ':server-gate'
+
